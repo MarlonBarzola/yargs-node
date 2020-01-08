@@ -22,7 +22,7 @@ switch (comando) {
         break;
 
     default:
-        console.log('Comando no reconocido');
+        console.log(`${ colors.red('Comando no reconocido') }`);
         break;
 }
 
